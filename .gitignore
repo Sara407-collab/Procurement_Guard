@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets — Day 8 adds a Claude API key. It goes in .env, .env is never committed.
+.env
+.env.local
+*.key
+
+# OS / editor noise
+.DS_Store
+.vscode/settings.json
+
+# Generated data — keep the code, not every regenerated run.
+# Comment this out if you want data/ tracked in git (fine for now, it's synthetic).
+# data/*.csv

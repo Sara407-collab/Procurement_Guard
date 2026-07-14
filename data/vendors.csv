@@ -1,0 +1,312 @@
+vendor_id,vendor_name,tax_id,bank_account,address,phone,registration_date,primary_category,is_ghost
+V0000,Meridian Enterprises & Co,4949905-4,PK86TMCB72763122614,"81 Ferozepur Road, Faisalabad",+92-397-7850256,2021-06-16,Spare Parts,False
+V0001,Vertex Industrial Group,5053472-5,PK43TMCB93408848995,"312 Multan Rd, Islamabad",+92-385-4990727,2019-01-20,Consulting Services,False
+V0002,Meridian Logistics Corp,1574355-8,PK83TMCB66849795920,"66 Davis Road, Multan",+92-330-9736281,2019-01-04,Cleaning Services,False
+V0003,Riverstone Enterprises Group,2751748-3,PK51TMCB13942338920,"219 Ferozepur Road, Multan",+92-369-7702858,2018-04-20,Security Services,False
+V0004,Silverline Supplies Corp,4334136-0,PK51TMCB27052422317,"185 Ferozepur Road, Multan",+92-343-3042183,2020-01-30,Construction,False
+V0005,Cedarpoint Engineering Pvt Ltd,8494102-6,PK72TMCB38112997724,"307 Davis Road, Islamabad",+92-388-4487305,2023-01-31,Consulting Services,False
+V0006,Ironwood Solutions & Co,2257772-8,PK27TMCB10662604277,"318 Davis Road, Multan",+92-364-7346487,2017-06-29,Spare Parts,False
+V0007,Cobalt Engineering Inc,6118670-0,PK22TMCB20307706618,"176 Shahrah-e-Quaid, Faisalabad",+92-348-6087124,2015-09-18,Spare Parts,False
+V0008,Cobalt Solutions Inc,5982214-0,PK59TMCB37355508825,"241 Mall Road, Islamabad",+92-349-2931261,2017-06-28,Office Supplies,False
+V0009,Halcyon Systems Ltd,3105455-8,PK15TMCB35324550281,"367 Canal Bank Rd, Islamabad",+92-361-6013288,2019-07-18,Spare Parts,False
+V0010,Halcyon Solutions LLC,4657481-4,PK82TMCB25027562791,"134 Mall Road, Lahore",+92-307-7501233,2021-04-09,Office Supplies,False
+V0011,Riverstone Industrial Corp,5509402-9,PK23TMCB72668833756,"198 Model Town Link, Lahore",+92-332-3713608,2021-02-25,Construction,False
+V0012,Cobalt Supplies Corp,1788849-3,PK20TMCB96570789808,"147 Empress Road, Islamabad",+92-364-3392829,2021-11-17,Security Services,False
+V0013,Ironwood Enterprises Pvt Ltd,7452010-7,PK49TMCB34501740565,"32 Ferozepur Road, Islamabad",+92-391-5101986,2021-05-03,Consulting Services,False
+V0014,Riverstone Supplies Group,6212975-5,PK25TMCB87095285567,"8 Davis Road, Islamabad",+92-376-4888836,2017-10-11,Construction,False
+V0015,Crescent Logistics Ltd,6848618-6,PK17TMCB47422666194,"314 Mall Road, Karachi",+92-341-3968750,2020-12-11,Software Licenses,False
+V0016,Riverstone Industrial Pvt Ltd,6288800-7,PK25TMCB93260810652,"395 Raiwind Rd, Islamabad",+92-336-6318238,2017-08-26,Hardware,False
+V0017,Crescent Contractors LLC,5340730-4,PK79TMCB17445699992,"111 Model Town Link, Multan",+92-344-9440437,2016-06-13,Transport,False
+V0018,Vertex Engineering Group,3402780-9,PK39TMCB56860516221,"340 Model Town Link, Karachi",+92-303-8436626,2015-02-02,Cleaning Services,False
+V0019,Vertex Industrial LLC,5986324-3,PK19TMCB70501608372,"48 Canal Bank Rd, Karachi",+92-367-7542950,2023-06-13,Spare Parts,False
+V0020,Blue Harbor Industrial & Co,9244105-9,PK30TMCB13367130055,"57 Raiwind Rd, Faisalabad",+92-333-8468106,2019-02-21,Cleaning Services,False
+V0021,Halcyon Supplies Pvt Ltd,9576093-6,PK35TMCB56355141630,"362 Canal Bank Rd, Sialkot",+92-391-2481470,2019-10-19,Hardware,False
+V0022,Blue Harbor Engineering Corp,9931379-1,PK89TMCB77374721750,"338 Empress Road, Karachi",+92-381-5669724,2019-03-24,Raw Materials,False
+V0023,Apex Enterprises LLC,6954950-4,PK43TMCB18502000125,"294 Shahrah-e-Quaid, Islamabad",+92-320-9431317,2023-07-13,Consulting Services,False
+V0024,Apex Industrial Ltd,8480013-8,PK23TMCB26134147734,"147 Multan Rd, Multan",+92-380-2767911,2017-07-11,Raw Materials,False
+V0025,Halcyon Enterprises LLC,9746436-4,PK54TMCB22950775229,"373 Mall Road, Karachi",+92-322-2186399,2015-03-01,Construction,False
+V0026,Halcyon Industrial LLC,5556968-9,PK71TMCB62300494829,"167 Gulberg Ave, Sialkot",+92-380-7438663,2015-10-05,Spare Parts,False
+V0027,Onyx Industrial Inc,2113784-5,PK92TMCB45782037443,"389 Canal Bank Rd, Lahore",+92-345-6965777,2017-10-28,Security Services,False
+V0028,Vertex Technologies Corp,9323274-4,PK12TMCB59967823808,"60 Multan Rd, Sialkot",+92-317-2263056,2021-09-27,Office Supplies,False
+V0029,Apex Contractors Pvt Ltd,6364382-1,PK93TMCB82392482404,"173 Model Town Link, Faisalabad",+92-378-1160531,2020-12-21,Software Licenses,False
+V0030,Blue Harbor Systems Pvt Ltd,8171352-4,PK30TMCB57769263153,"306 Multan Rd, Sialkot",+92-387-6427963,2017-08-10,Office Supplies,False
+V0031,Crescent Supplies Corp,4832938-1,PK68TMCB88074156856,"110 Model Town Link, Faisalabad",+92-322-3129961,2023-12-14,Spare Parts,False
+V0032,Trident Systems Corp,1947502-8,PK15TMCB63499029737,"143 Ferozepur Road, Karachi",+92-383-3793011,2023-04-24,Software Licenses,False
+V0033,Cedarpoint Contractors & Co,2489785-1,PK35TMCB23825205567,"182 Ferozepur Road, Faisalabad",+92-307-1498558,2016-10-02,Software Licenses,False
+V0034,Onyx Trading Inc,6320293-5,PK70TMCB45426741114,"331 Canal Bank Rd, Sialkot",+92-357-8875043,2022-02-18,Cleaning Services,False
+V0035,Vertex Trading Inc,2633485-8,PK31TMCB32444881824,"257 Raiwind Rd, Sialkot",+92-342-1443287,2015-01-24,Raw Materials,False
+V0036,Cedarpoint Logistics Corp,1915047-0,PK84TMCB14676567981,"162 Cavalry Ground, Multan",+92-308-8592173,2022-03-16,Security Services,False
+V0037,Ironwood Contractors LLC,8218232-5,PK79TMCB67823494838,"246 Davis Road, Multan",+92-318-5824611,2017-11-27,Transport,False
+V0038,Halcyon Systems Group,5165193-7,PK44TMCB67560694410,"100 Canal Bank Rd, Lahore",+92-314-5300894,2016-06-26,Office Supplies,False
+V0039,Cobalt Technologies LLC,4307605-5,PK42TMCB39474600796,"174 Jail Road, Karachi",+92-362-3671887,2022-02-18,Security Services,False
+V0040,Riverstone Contractors Group,5328193-7,PK39TMCB58189131084,"384 Empress Road, Islamabad",+92-362-8239525,2019-12-23,Transport,False
+V0041,Falcon Solutions Ltd,3593400-1,PK75TMCB28216413381,"239 Shahrah-e-Quaid, Faisalabad",+92-389-2188925,2023-07-28,Construction,False
+V0042,Granite Trading & Co,7531439-5,PK17TMCB94234584042,"289 Ferozepur Road, Sialkot",+92-391-8207956,2018-08-29,Transport,False
+V0043,Pinnacle Enterprises Corp,8156032-9,PK94TMCB32804501845,"289 Multan Rd, Lahore",+92-305-6545490,2016-07-05,Software Licenses,False
+V0044,Riverstone Logistics Group,7875309-9,PK81TMCB54293789401,"95 Multan Rd, Lahore",+92-398-2077602,2022-01-27,Software Licenses,False
+V0045,Riverstone Trading Inc,6920768-7,PK47TMCB79688927451,"84 Shahrah-e-Quaid, Multan",+92-337-9085298,2022-05-09,Spare Parts,False
+V0046,Granite Technologies Group,4277727-5,PK37TMCB24185048376,"384 Ferozepur Road, Lahore",+92-395-4941135,2021-08-21,Raw Materials,False
+V0047,Crescent Enterprises Pvt Ltd,5976937-9,PK93TMCB80227134451,"245 Model Town Link, Lahore",+92-336-9879682,2015-01-17,Spare Parts,False
+V0048,Trident Contractors LLC,2066307-2,PK85TMCB67336649558,"49 Ferozepur Road, Islamabad",+92-350-7174866,2019-11-25,Hardware,False
+V0049,Meridian Engineering Group,8428594-4,PK36TMCB51269327361,"126 Model Town Link, Lahore",+92-335-9265976,2021-08-23,Spare Parts,False
+V0050,Halcyon Trading Corp,7160460-2,PK79TMCB19577757868,"334 Multan Rd, Sialkot",+92-306-2228720,2020-11-06,Construction,False
+V0051,Meridian Solutions Corp,8770992-0,PK31TMCB22871968764,"97 Empress Road, Multan",+92-381-1131153,2023-03-13,Consulting Services,False
+V0052,Granite Contractors Ltd,1049260-0,PK23TMCB64533265987,"21 Cavalry Ground, Multan",+92-392-3590196,2022-08-24,Consulting Services,False
+V0053,Meridian Solutions Group,9713764-9,PK20TMCB72830870557,"309 Davis Road, Sialkot",+92-340-5105748,2016-10-25,Software Licenses,False
+V0054,Crescent Solutions Inc,5858547-7,PK58TMCB86601798977,"252 Model Town Link, Lahore",+92-387-1477233,2016-09-26,Hardware,False
+V0055,Ironwood Trading & Co,5702977-9,PK76TMCB14905028349,"245 Mall Road, Faisalabad",+92-300-2972221,2022-12-16,Office Supplies,False
+V0056,Riverstone Engineering Pvt Ltd,4340408-0,PK78TMCB98202446158,"74 Multan Rd, Islamabad",+92-357-3290335,2020-09-22,Cleaning Services,False
+V0057,Cobalt Engineering Pvt Ltd,3234605-9,PK58TMCB62021549422,"121 Raiwind Rd, Multan",+92-326-4984094,2023-06-19,Software Licenses,False
+V0058,Crescent Engineering Inc,7217876-4,PK91TMCB20729577357,"190 Cavalry Ground, Lahore",+92-392-1840683,2017-09-28,Construction,False
+V0059,Silverline Enterprises & Co,4607055-6,PK96TMCB46790479848,"165 Empress Road, Karachi",+92-395-6414159,2017-11-08,Security Services,False
+V0060,Apex Technologies LLC,5295478-4,PK23TMCB61521213980,"91 Jail Road, Faisalabad",+92-357-5923319,2020-10-30,Transport,False
+V0061,Granite Solutions LLC,3216559-7,PK40TMCB48827637565,"220 Raiwind Rd, Faisalabad",+92-353-9655940,2019-08-13,Cleaning Services,False
+V0062,Falcon Logistics Corp,2154411-9,PK85TMCB56824760326,"201 Canal Bank Rd, Multan",+92-323-5673623,2022-07-15,Raw Materials,False
+V0063,Pinnacle Trading Ltd,1503525-0,PK87TMCB15001112521,"336 Mall Road, Karachi",+92-353-5388040,2016-07-22,Spare Parts,False
+V0064,Blue Harbor Trading Group,9125094-0,PK48TMCB87089322120,"331 Jail Road, Islamabad",+92-371-3154791,2020-05-28,Construction,False
+V0065,Crescent Logistics LLC,5515700-9,PK16TMCB79489440221,"398 Model Town Link, Karachi",+92-376-2296521,2021-05-07,Spare Parts,False
+V0066,Northgate Contractors & Co,4002654-0,PK70TMCB57257947266,"84 Model Town Link, Lahore",+92-371-4759783,2022-07-11,Security Services,False
+V0067,Halcyon Contractors Inc,2804324-8,PK81TMCB22743629971,"396 Raiwind Rd, Islamabad",+92-383-3957334,2015-09-21,Cleaning Services,False
+V0068,Falcon Trading Inc,5317462-4,PK91TMCB26283398700,"61 Gulberg Ave, Sialkot",+92-390-6688826,2017-02-04,Software Licenses,False
+V0069,Blue Harbor Industrial Inc,9960494-5,PK74TMCB17570380110,"197 Canal Bank Rd, Karachi",+92-388-8687091,2020-09-26,Transport,False
+V0070,Granite Engineering & Co,8149983-7,PK64TMCB42994754643,"24 Shahrah-e-Quaid, Faisalabad",+92-383-9382547,2022-08-07,Raw Materials,False
+V0071,Pinnacle Logistics Group,7202413-8,PK42TMCB91859701947,"202 Canal Bank Rd, Faisalabad",+92-318-4457961,2018-01-24,Transport,False
+V0072,Pinnacle Systems Inc,5652951-1,PK11TMCB92560390528,"160 Multan Rd, Faisalabad",+92-331-1076920,2018-01-18,Raw Materials,False
+V0073,Summit Technologies Ltd,6471641-9,PK71TMCB37678156517,"179 Ferozepur Road, Faisalabad",+92-350-4739693,2017-07-02,Software Licenses,False
+V0074,Riverstone Logistics & Co,7421334-9,PK81TMCB52975528626,"248 Cavalry Ground, Multan",+92-369-5635709,2021-06-26,Consulting Services,False
+V0075,Halcyon Solutions Group,5146638-8,PK16TMCB75917215268,"46 Davis Road, Islamabad",+92-365-9653705,2020-11-20,Office Supplies,False
+V0076,Halcyon Industrial Corp,2386117-2,PK83TMCB77498518413,"293 Multan Rd, Islamabad",+92-301-3679994,2015-05-15,Transport,False
+V0077,Falcon Contractors Inc,8875045-9,PK86TMCB98012528115,"186 Gulberg Ave, Islamabad",+92-307-6848533,2015-10-06,Consulting Services,False
+V0078,Vertex Logistics Group,3394876-9,PK49TMCB13327365448,"329 Mall Road, Islamabad",+92-390-4320802,2015-12-26,Security Services,False
+V0079,Riverstone Enterprises & Co,6913238-7,PK10TMCB76548832162,"346 Jail Road, Multan",+92-330-9170355,2017-02-09,Software Licenses,False
+V0080,Granite Technologies Corp,4993751-0,PK94TMCB70955865942,"206 Raiwind Rd, Lahore",+92-374-7298356,2023-01-22,Construction,False
+V0081,Riverstone Technologies Pvt Ltd,4735014-8,PK56TMCB86801020402,"139 Empress Road, Karachi",+92-375-5040746,2018-07-28,Software Licenses,False
+V0082,Ironwood Logistics Corp,8797073-1,PK70TMCB40773424468,"34 Model Town Link, Multan",+92-348-5802225,2023-12-27,Construction,False
+V0083,Blue Harbor Enterprises LLC,5807515-1,PK20TMCB99782203352,"230 Empress Road, Multan",+92-375-1542614,2018-07-13,Office Supplies,False
+V0084,Cedarpoint Technologies Inc,4096598-1,PK19TMCB16045000196,"146 Jail Road, Karachi",+92-350-3716314,2019-01-29,Security Services,False
+V0085,Granite Systems LLC,5047389-4,PK88TMCB77676680940,"383 Raiwind Rd, Faisalabad",+92-392-4120367,2023-01-27,Raw Materials,False
+V0086,Ironwood Logistics LLC,9017859-9,PK37TMCB76808615446,"212 Gulberg Ave, Faisalabad",+92-366-1225093,2017-09-11,Cleaning Services,False
+V0087,Ironwood Technologies LLC,2596490-1,PK40TMCB35492223992,"349 Mall Road, Faisalabad",+92-327-6265150,2022-01-20,Construction,False
+V0088,Silverline Systems Inc,9549409-9,PK62TMCB83317459879,"270 Shahrah-e-Quaid, Sialkot",+92-327-5232482,2016-08-31,Software Licenses,False
+V0089,Cobalt Supplies Ltd,4844316-6,PK38TMCB56145885786,"382 Cavalry Ground, Islamabad",+92-310-9442211,2023-08-21,Spare Parts,False
+V0090,Meridian Technologies Ltd,1461236-2,PK60TMCB50960605816,"27 Canal Bank Rd, Faisalabad",+92-373-1427622,2015-06-17,Cleaning Services,False
+V0091,Crescent Solutions LLC,7997653-0,PK89TMCB28631848737,"279 Cavalry Ground, Karachi",+92-343-3074952,2018-10-01,Software Licenses,False
+V0092,Apex Technologies Ltd,4733009-8,PK24TMCB55735062022,"1 Canal Bank Rd, Islamabad",+92-303-4691210,2018-11-18,Transport,False
+V0093,Onyx Engineering Group,5767618-2,PK30TMCB31823456772,"129 Empress Road, Islamabad",+92-386-4000172,2017-01-20,Spare Parts,False
+V0094,Blue Harbor Technologies Corp,5343668-0,PK54TMCB74040223742,"184 Gulberg Ave, Lahore",+92-360-3871143,2016-03-30,Hardware,False
+V0095,Cedarpoint Trading Ltd,9396025-1,PK82TMCB19956652080,"13 Shahrah-e-Quaid, Faisalabad",+92-342-1799739,2020-02-15,Consulting Services,False
+V0096,Cobalt Solutions Group,5445864-0,PK34TMCB65720717777,"341 Model Town Link, Lahore",+92-387-9956649,2022-09-13,Consulting Services,False
+V0097,Ironwood Technologies Corp,6012416-4,PK96TMCB98618458024,"241 Mall Road, Islamabad",+92-378-2336364,2017-11-12,Transport,False
+V0098,Onyx Industrial & Co,3667985-2,PK55TMCB38587207092,"166 Davis Road, Lahore",+92-380-7623060,2018-02-12,Raw Materials,False
+V0099,Apex Enterprises Pvt Ltd,6932410-7,PK85TMCB76472234780,"283 Davis Road, Karachi",+92-318-2331459,2020-05-05,Consulting Services,False
+V0100,Riverstone Solutions Ltd,2556495-7,PK55TMCB99259702832,"106 Mall Road, Sialkot",+92-305-9937760,2020-03-14,Transport,False
+V0101,Northgate Industrial & Co,9075718-0,PK88TMCB58258037179,"66 Multan Rd, Karachi",+92-327-1454677,2019-01-09,Transport,False
+V0102,Crescent Technologies LLC,6972588-9,PK84TMCB11634448952,"21 Multan Rd, Lahore",+92-328-8864995,2022-07-20,Consulting Services,False
+V0103,Granite Solutions Pvt Ltd,5981867-5,PK45TMCB70985868723,"213 Shahrah-e-Quaid, Multan",+92-352-7825799,2021-06-16,Security Services,False
+V0104,Crescent Engineering Corp,5631246-9,PK11TMCB81642570067,"144 Raiwind Rd, Islamabad",+92-349-1846647,2021-12-13,Cleaning Services,False
+V0105,Granite Supplies Pvt Ltd,7143233-4,PK23TMCB96539466657,"106 Gulberg Ave, Multan",+92-319-8730844,2023-11-07,Security Services,False
+V0106,Pinnacle Systems Group,6799911-8,PK67TMCB56531753815,"152 Ferozepur Road, Multan",+92-367-5805481,2022-01-17,Security Services,False
+V0107,Cobalt Engineering Ltd,8008095-9,PK72TMCB81828769222,"346 Raiwind Rd, Lahore",+92-302-4879220,2021-09-10,Office Supplies,False
+V0108,Apex Technologies Corp,9892200-3,PK81TMCB89881397963,"288 Multan Rd, Islamabad",+92-363-4132814,2020-06-23,Transport,False
+V0109,Cobalt Supplies LLC,1091728-6,PK61TMCB52087623095,"374 Mall Road, Karachi",+92-333-4264172,2018-07-19,Spare Parts,False
+V0110,Crescent Supplies Pvt Ltd,3770159-6,PK14TMCB95940855266,"136 Shahrah-e-Quaid, Karachi",+92-310-5255918,2021-10-12,Transport,False
+V0111,Trident Supplies Pvt Ltd,5302464-2,PK96TMCB56981107122,"75 Mall Road, Islamabad",+92-342-2151714,2015-05-29,Hardware,False
+V0112,Pinnacle Trading Corp,3202724-6,PK69TMCB19962286662,"198 Gulberg Ave, Karachi",+92-312-3814184,2021-11-18,Raw Materials,False
+V0113,Trident Enterprises Corp,1947021-9,PK64TMCB95769921948,"392 Multan Rd, Lahore",+92-341-9471516,2017-09-27,Consulting Services,False
+V0114,Vertex Engineering Ltd,8348446-8,PK76TMCB58812796206,"247 Raiwind Rd, Lahore",+92-302-5089001,2016-06-10,Software Licenses,False
+V0115,Trident Supplies & Co,5716253-7,PK75TMCB43412737337,"119 Empress Road, Islamabad",+92-317-1271451,2021-12-13,Hardware,False
+V0116,Summit Solutions Corp,4676298-1,PK30TMCB19035608108,"358 Jail Road, Karachi",+92-318-6559404,2016-08-12,Construction,False
+V0117,Silverline Trading Inc,2667086-2,PK88TMCB86620118445,"284 Raiwind Rd, Sialkot",+92-373-5813815,2019-10-11,Spare Parts,False
+V0118,Ironwood Supplies Pvt Ltd,3665285-1,PK13TMCB89918994573,"376 Mall Road, Multan",+92-335-3539987,2019-06-01,Office Supplies,False
+V0119,Vertex Supplies Inc,8429124-4,PK42TMCB21309746758,"53 Gulberg Ave, Sialkot",+92-304-8508702,2023-07-31,Software Licenses,False
+V0120,Crescent Supplies Inc,9638267-2,PK24TMCB12704912088,"102 Jail Road, Lahore",+92-319-1014954,2017-11-22,Security Services,False
+V0121,Cobalt Trading Inc,9738512-4,PK57TMCB26851505015,"213 Empress Road, Sialkot",+92-318-8352185,2021-09-03,Raw Materials,False
+V0122,Pinnacle Systems Pvt Ltd,8458704-9,PK70TMCB14509602072,"137 Cavalry Ground, Islamabad",+92-307-6918023,2020-08-08,Hardware,False
+V0123,Falcon Solutions Group,8445969-2,PK28TMCB49419064262,"369 Canal Bank Rd, Faisalabad",+92-370-5973741,2023-12-10,Consulting Services,False
+V0124,Blue Harbor Systems Ltd,4577690-4,PK81TMCB23709403914,"52 Davis Road, Faisalabad",+92-343-2378568,2023-04-19,Construction,False
+V0125,Blue Harbor Engineering Group,7476081-4,PK36TMCB63972582103,"264 Mall Road, Islamabad",+92-369-5730067,2018-01-31,Transport,False
+V0126,Summit Trading & Co,9875650-8,PK61TMCB50466941957,"17 Canal Bank Rd, Sialkot",+92-377-3499777,2023-12-05,Office Supplies,False
+V0127,Vertex Enterprises & Co,2550583-3,PK42TMCB42970193969,"379 Shahrah-e-Quaid, Multan",+92-334-9048642,2020-01-21,Software Licenses,False
+V0128,Riverstone Logistics Inc,7525937-9,PK39TMCB68236461832,"168 Jail Road, Islamabad",+92-364-5179310,2018-12-17,Consulting Services,False
+V0129,Crescent Systems Ltd,3923909-6,PK21TMCB69661874278,"262 Canal Bank Rd, Lahore",+92-383-8245054,2016-10-12,Software Licenses,False
+V0130,Onyx Contractors Corp,7761214-2,PK91TMCB21642652311,"267 Empress Road, Karachi",+92-371-3524850,2017-07-20,Consulting Services,False
+V0131,Riverstone Contractors Corp,7673952-2,PK95TMCB73125199111,"217 Davis Road, Sialkot",+92-356-7709750,2017-04-18,Raw Materials,False
+V0132,Granite Trading LLC,7461961-9,PK56TMCB71688494867,"160 Raiwind Rd, Lahore",+92-354-7307214,2022-11-16,Security Services,False
+V0133,Cobalt Supplies Inc,2588154-9,PK85TMCB38999410643,"341 Empress Road, Faisalabad",+92-374-4984931,2020-09-09,Cleaning Services,False
+V0134,Northgate Systems Pvt Ltd,4625447-9,PK94TMCB85899059717,"369 Cavalry Ground, Sialkot",+92-307-9970710,2021-11-18,Consulting Services,False
+V0135,Falcon Industrial Inc,6636047-4,PK72TMCB68033727491,"96 Multan Rd, Karachi",+92-332-5155993,2020-04-10,Raw Materials,False
+V0136,Silverline Technologies Pvt Ltd,6916943-8,PK35TMCB25092956770,"344 Jail Road, Lahore",+92-303-5090161,2022-03-06,Software Licenses,False
+V0137,Trident Technologies Ltd,7299033-7,PK63TMCB45105633113,"47 Model Town Link, Sialkot",+92-321-9513110,2016-05-21,Hardware,False
+V0138,Silverline Engineering & Co,8899611-9,PK35TMCB16267657293,"392 Cavalry Ground, Lahore",+92-357-3244943,2017-06-08,Office Supplies,False
+V0139,Trident Technologies & Co,5073324-1,PK73TMCB25872074200,"333 Ferozepur Road, Islamabad",+92-355-3192903,2019-07-05,Consulting Services,False
+V0140,Apex Contractors Ltd,9994796-0,PK55TMCB18567917826,"273 Shahrah-e-Quaid, Lahore",+92-393-3864937,2017-09-03,Office Supplies,False
+V0141,Summit Engineering Pvt Ltd,1462772-3,PK69TMCB41800392555,"130 Davis Road, Multan",+92-389-8391076,2023-06-06,Office Supplies,False
+V0142,Silverline Supplies Pvt Ltd,7739386-7,PK81TMCB54213170174,"89 Empress Road, Karachi",+92-315-8911618,2023-03-30,Hardware,False
+V0143,Blue Harbor Industrial LLC,5804559-2,PK16TMCB14752639125,"91 Mall Road, Lahore",+92-348-7971614,2015-11-21,Hardware,False
+V0144,Northgate Solutions Group,8408145-3,PK24TMCB23217736133,"26 Empress Road, Karachi",+92-385-5850475,2019-02-03,Cleaning Services,False
+V0145,Apex Trading LLC,4550333-5,PK75TMCB33170676338,"131 Davis Road, Karachi",+92-355-7752393,2021-06-06,Office Supplies,False
+V0146,Blue Harbor Supplies LLC,2972702-6,PK28TMCB77634172950,"384 Ferozepur Road, Multan",+92-303-2586622,2016-06-17,Software Licenses,False
+V0147,Apex Systems Ltd,4586559-6,PK98TMCB22349013201,"395 Multan Rd, Karachi",+92-349-4536263,2016-08-26,Cleaning Services,False
+V0148,Halcyon Contractors Corp,8855729-4,PK27TMCB29871812908,"189 Multan Rd, Sialkot",+92-322-7612525,2015-01-22,Transport,False
+V0149,Falcon Logistics LLC,8456921-3,PK73TMCB12391998849,"212 Mall Road, Sialkot",+92-363-5375728,2020-07-28,Consulting Services,False
+V0150,Blue Harbor Engineering Pvt Ltd,7821192-1,PK83TMCB60510076109,"63 Jail Road, Multan",+92-321-5697265,2016-06-18,Raw Materials,False
+V0151,Pinnacle Logistics & Co,7089870-8,PK15TMCB10096071852,"4 Gulberg Ave, Faisalabad",+92-387-6816616,2022-01-01,Software Licenses,False
+V0152,Trident Systems Ltd,5229602-8,PK52TMCB94198774944,"190 Mall Road, Islamabad",+92-324-6271941,2019-03-05,Software Licenses,False
+V0153,Blue Harbor Solutions Ltd,2926830-8,PK18TMCB28628664367,"42 Model Town Link, Faisalabad",+92-310-2212228,2020-11-11,Cleaning Services,False
+V0154,Summit Supplies LLC,4246827-2,PK14TMCB42163266114,"137 Canal Bank Rd, Sialkot",+92-364-2848512,2022-03-18,Cleaning Services,False
+V0155,Apex Contractors & Co,1898479-7,PK19TMCB20379379429,"184 Multan Rd, Islamabad",+92-311-8671440,2023-08-31,Spare Parts,False
+V0156,Meridian Systems & Co,5734544-1,PK98TMCB13975759264,"10 Jail Road, Lahore",+92-334-9537808,2015-10-11,Transport,False
+V0157,Cedarpoint Systems Corp,2533070-8,PK97TMCB54877559218,"212 Model Town Link, Karachi",+92-399-4426590,2022-03-31,Raw Materials,False
+V0158,Onyx Logistics Inc,2152473-6,PK38TMCB27388749019,"392 Ferozepur Road, Multan",+92-380-6303979,2020-03-12,Raw Materials,False
+V0159,Riverstone Engineering Inc,4883670-8,PK66TMCB93409245233,"321 Cavalry Ground, Multan",+92-337-3963361,2017-06-09,Office Supplies,False
+V0160,Halcyon Logistics LLC,5156360-2,PK68TMCB59895912103,"148 Canal Bank Rd, Sialkot",+92-330-4407334,2019-10-16,Hardware,False
+V0161,Falcon Contractors LLC,8769326-2,PK79TMCB77998558821,"225 Raiwind Rd, Karachi",+92-358-9735930,2023-05-07,Software Licenses,False
+V0162,Cobalt Industrial & Co,9931020-0,PK68TMCB45323626083,"378 Ferozepur Road, Sialkot",+92-395-9810051,2015-01-16,Construction,False
+V0163,Cedarpoint Logistics Ltd,1238791-3,PK76TMCB86693080335,"96 Model Town Link, Karachi",+92-344-1049257,2020-02-10,Spare Parts,False
+V0164,Cedarpoint Supplies Corp,8908871-9,PK43TMCB60857011956,"24 Canal Bank Rd, Multan",+92-314-7974170,2016-05-07,Office Supplies,False
+V0165,Summit Logistics Pvt Ltd,9688742-0,PK95TMCB87007790952,"340 Gulberg Ave, Sialkot",+92-359-8903325,2020-03-20,Raw Materials,False
+V0166,Crescent Industrial LLC,8298665-5,PK52TMCB60795341231,"255 Cavalry Ground, Multan",+92-369-4824814,2023-06-01,Raw Materials,False
+V0167,Crescent Engineering Ltd,2065591-8,PK80TMCB85394517235,"28 Canal Bank Rd, Multan",+92-337-8869007,2015-08-06,Hardware,False
+V0168,Cedarpoint Logistics Inc,5173080-4,PK71TMCB24705253013,"251 Shahrah-e-Quaid, Lahore",+92-337-6568432,2016-03-24,Hardware,False
+V0169,Cobalt Engineering Corp,5700257-9,PK29TMCB22566128875,"230 Gulberg Ave, Islamabad",+92-331-1871291,2019-08-11,Security Services,False
+V0170,Onyx Engineering Corp,3206507-0,PK61TMCB88426817805,"261 Empress Road, Faisalabad",+92-334-2203703,2018-11-17,Raw Materials,False
+V0171,Apex Technologies Inc,4324086-9,PK52TMCB13635930595,"383 Gulberg Ave, Multan",+92-353-5698761,2023-02-16,Raw Materials,False
+V0172,Apex Supplies Corp,7855995-8,PK91TMCB15384190358,"47 Mall Road, Sialkot",+92-391-7499520,2019-10-25,Hardware,False
+V0173,Cedarpoint Systems Inc,7370995-3,PK80TMCB15680545363,"178 Gulberg Ave, Sialkot",+92-323-8121479,2016-09-14,Transport,False
+V0174,Blue Harbor Industrial Corp,2799073-0,PK69TMCB73705950495,"347 Raiwind Rd, Multan",+92-319-6571995,2022-07-31,Raw Materials,False
+V0175,Cedarpoint Solutions Ltd,9306112-7,PK36TMCB58914603556,"218 Cavalry Ground, Sialkot",+92-329-4941508,2021-05-05,Spare Parts,False
+V0176,Pinnacle Engineering Inc,8762942-3,PK34TMCB45235615751,"20 Empress Road, Faisalabad",+92-370-6113845,2022-01-07,Spare Parts,False
+V0177,Pinnacle Industrial Corp,8516447-6,PK17TMCB24177100718,"15 Empress Road, Karachi",+92-329-8364338,2016-12-19,Raw Materials,False
+V0178,Vertex Solutions Corp,8840131-9,PK13TMCB14420587937,"95 Jail Road, Lahore",+92-390-2335638,2016-10-03,Software Licenses,False
+V0179,Ironwood Logistics & Co,6633905-7,PK27TMCB82052525859,"345 Multan Rd, Faisalabad",+92-386-9539587,2016-02-24,Raw Materials,False
+V0180,Crescent Trading Inc,3033360-4,PK48TMCB95112428663,"339 Jail Road, Karachi",+92-371-5864289,2018-10-22,Software Licenses,False
+V0181,Granite Industrial & Co,2458845-4,PK81TMCB74971610155,"92 Empress Road, Karachi",+92-379-7867167,2016-09-09,Cleaning Services,False
+V0182,Meridian Logistics Inc,5779714-5,PK12TMCB49300074040,"203 Canal Bank Rd, Sialkot",+92-304-5613379,2019-04-21,Security Services,False
+V0183,Silverline Contractors Ltd,7605425-5,PK31TMCB67384808219,"91 Multan Rd, Lahore",+92-359-1155908,2019-03-22,Office Supplies,False
+V0184,Riverstone Trading Group,8399921-7,PK67TMCB80358134280,"361 Model Town Link, Islamabad",+92-361-8706060,2021-12-07,Construction,False
+V0185,Blue Harbor Supplies Inc,6962765-7,PK69TMCB96452826624,"282 Jail Road, Faisalabad",+92-346-8309105,2018-04-28,Transport,False
+V0186,Apex Enterprises Inc,5137384-5,PK29TMCB77068345849,"140 Ferozepur Road, Islamabad",+92-313-6641424,2016-01-08,Spare Parts,False
+V0187,Ironwood Systems Group,3453278-5,PK19TMCB96044199356,"321 Ferozepur Road, Karachi",+92-313-3621964,2017-12-14,Transport,False
+V0188,Summit Systems Group,7844913-1,PK73TMCB25766251106,"300 Jail Road, Multan",+92-348-2326833,2018-07-02,Consulting Services,False
+V0189,Ironwood Supplies LLC,2145485-7,PK58TMCB73452537686,"60 Mall Road, Islamabad",+92-342-8039899,2020-03-26,Spare Parts,False
+V0190,Meridian Systems Pvt Ltd,5034165-4,PK83TMCB31667776409,"136 Jail Road, Karachi",+92-312-5207360,2018-02-02,Raw Materials,False
+V0191,Riverstone Technologies Corp,7766025-1,PK37TMCB34552389712,"146 Ferozepur Road, Lahore",+92-347-3726681,2022-09-29,Raw Materials,False
+V0192,Falcon Trading Corp,4284630-4,PK65TMCB88045504893,"257 Multan Rd, Sialkot",+92-346-4969564,2023-01-03,Cleaning Services,False
+V0193,Cedarpoint Logistics Group,4229153-4,PK77TMCB11422499989,"383 Gulberg Ave, Multan",+92-344-5427401,2018-09-01,Office Supplies,False
+V0194,Cobalt Enterprises Inc,6782704-8,PK98TMCB30265989949,"44 Gulberg Ave, Multan",+92-308-7934905,2023-12-14,Construction,False
+V0195,Trident Industrial Corp,2442933-3,PK21TMCB34127659433,"161 Davis Road, Faisalabad",+92-369-4886611,2018-02-06,Security Services,False
+V0196,Cobalt Solutions LLC,2938931-1,PK29TMCB15215081008,"78 Multan Rd, Sialkot",+92-374-1534623,2022-07-04,Hardware,False
+V0197,Riverstone Solutions Pvt Ltd,7658832-1,PK30TMCB33824053955,"324 Cavalry Ground, Sialkot",+92-371-3694777,2021-02-05,Security Services,False
+V0198,Onyx Engineering Pvt Ltd,9643030-2,PK40TMCB33813784480,"385 Mall Road, Islamabad",+92-394-7295761,2017-04-11,Spare Parts,False
+V0199,Cobalt Supplies Group,8516131-8,PK28TMCB10387519810,"229 Raiwind Rd, Islamabad",+92-398-1347798,2016-11-17,Consulting Services,False
+V0200,Onyx Enterprises Ltd,2263014-3,PK40TMCB43438888756,"299 Gulberg Ave, Karachi",+92-311-6079358,2018-09-09,Office Supplies,False
+V0201,Vertex Solutions Group,7213616-1,PK97TMCB47065909626,"261 Jail Road, Karachi",+92-390-3212880,2023-12-08,Spare Parts,False
+V0202,Meridian Enterprises Corp,1880091-4,PK51TMCB28050622418,"70 Gulberg Ave, Islamabad",+92-342-3604867,2016-09-23,Spare Parts,False
+V0203,Summit Contractors Inc,8224484-6,PK33TMCB34672095431,"48 Canal Bank Rd, Karachi",+92-310-9494184,2019-08-15,Office Supplies,False
+V0204,Cedarpoint Technologies LLC,8620038-6,PK45TMCB13160512999,"34 Ferozepur Road, Multan",+92-364-8046146,2016-06-12,Consulting Services,False
+V0205,Silverline Contractors & Co,8658973-2,PK85TMCB30489503211,"209 Mall Road, Sialkot",+92-385-3752201,2015-11-22,Construction,False
+V0206,Crescent Industrial Group,2431215-9,PK19TMCB49710047362,"291 Mall Road, Sialkot",+92-315-9860822,2021-09-14,Hardware,False
+V0207,Onyx Industrial Group,6588597-2,PK47TMCB31450467642,"48 Canal Bank Rd, Faisalabad",+92-365-5546251,2020-03-30,Cleaning Services,False
+V0208,Silverline Systems Group,9649056-9,PK81TMCB76287089592,"99 Canal Bank Rd, Multan",+92-325-8170746,2016-09-11,Raw Materials,False
+V0209,Apex Enterprises Group,9260739-1,PK97TMCB41684560681,"142 Multan Rd, Faisalabad",+92-340-9879657,2016-12-31,Hardware,False
+V0210,Cobalt Engineering & Co,8879850-0,PK35TMCB80901356556,"240 Jail Road, Faisalabad",+92-394-8951767,2022-01-07,Raw Materials,False
+V0211,Northgate Technologies & Co,3647257-6,PK93TMCB12200575679,"332 Model Town Link, Karachi",+92-397-3881988,2020-01-27,Construction,False
+V0212,Pinnacle Engineering Ltd,5072156-3,PK82TMCB12780355333,"346 Empress Road, Islamabad",+92-349-8805659,2015-06-17,Raw Materials,False
+V0213,Falcon Logistics Pvt Ltd,5722988-8,PK29TMCB89713465376,"298 Canal Bank Rd, Karachi",+92-355-4685813,2022-01-05,Spare Parts,False
+V0214,Silverline Trading LLC,9626636-4,PK73TMCB67200431860,"149 Shahrah-e-Quaid, Sialkot",+92-351-5285203,2016-02-09,Office Supplies,False
+V0215,Meridian Solutions LLC,2813814-0,PK89TMCB83057713408,"24 Jail Road, Sialkot",+92-351-2269245,2017-05-14,Security Services,False
+V0216,Summit Contractors & Co,9297076-8,PK39TMCB25222123664,"117 Gulberg Ave, Lahore",+92-301-2080995,2018-06-04,Hardware,False
+V0217,Meridian Contractors Ltd,1666519-0,PK42TMCB65792438215,"218 Canal Bank Rd, Multan",+92-388-9361736,2018-09-07,Cleaning Services,False
+V0218,Blue Harbor Solutions Inc,5699125-9,PK73TMCB50265347660,"282 Jail Road, Karachi",+92-340-2527426,2018-10-14,Spare Parts,False
+V0219,Onyx Technologies LLC,2381783-7,PK31TMCB85786313658,"275 Canal Bank Rd, Sialkot",+92-366-8707685,2022-12-07,Hardware,False
+V0220,Trident Enterprises Pvt Ltd,3768988-7,PK29TMCB72001130720,"260 Empress Road, Lahore",+92-329-6119503,2017-03-28,Consulting Services,False
+V0221,Northgate Logistics Pvt Ltd,6596757-4,PK64TMCB66119173267,"369 Ferozepur Road, Karachi",+92-366-7072752,2020-01-14,Construction,False
+V0222,Cobalt Trading Group,5021549-0,PK46TMCB17804033527,"398 Gulberg Ave, Karachi",+92-348-7686156,2021-12-09,Consulting Services,False
+V0223,Trident Systems Inc,5912184-0,PK77TMCB52530038499,"216 Model Town Link, Lahore",+92-367-9351734,2023-05-15,Office Supplies,False
+V0224,Halcyon Logistics & Co,6417972-9,PK75TMCB16466530193,"164 Raiwind Rd, Multan",+92-345-9295163,2018-01-05,Office Supplies,False
+V0225,Halcyon Logistics Inc,6300719-1,PK47TMCB18566878450,"87 Multan Rd, Lahore",+92-364-4298344,2021-12-03,Transport,False
+V0226,Falcon Enterprises Ltd,2939430-5,PK96TMCB94696865627,"62 Cavalry Ground, Karachi",+92-346-2757050,2017-12-08,Raw Materials,False
+V0227,Granite Supplies LLC,3606247-7,PK23TMCB91521266761,"93 Cavalry Ground, Faisalabad",+92-317-5428815,2022-08-25,Raw Materials,False
+V0228,Halcyon Systems Pvt Ltd,7529911-2,PK41TMCB33658419894,"100 Multan Rd, Faisalabad",+92-379-1079382,2023-11-30,Software Licenses,False
+V0229,Vertex Supplies & Co,7495629-8,PK45TMCB28347456459,"373 Jail Road, Faisalabad",+92-368-3023713,2017-09-23,Security Services,False
+V0230,Silverline Technologies Corp,5040741-9,PK91TMCB81860351033,"362 Cavalry Ground, Karachi",+92-303-6732085,2019-12-04,Hardware,False
+V0231,Cobalt Industrial Inc,6181303-6,PK46TMCB77425674157,"163 Davis Road, Islamabad",+92-343-5747894,2016-02-23,Office Supplies,False
+V0232,Summit Logistics Group,9868558-4,PK15TMCB78340699001,"91 Cavalry Ground, Faisalabad",+92-310-9784819,2017-11-05,Software Licenses,False
+V0233,Summit Technologies & Co,9026049-2,PK71TMCB14944149027,"26 Cavalry Ground, Faisalabad",+92-380-1200099,2022-08-21,Software Licenses,False
+V0234,Crescent Logistics & Co,3059965-4,PK70TMCB16461742812,"177 Model Town Link, Multan",+92-368-2135542,2015-02-06,Transport,False
+V0235,Summit Logistics Corp,4034234-5,PK70TMCB28251140734,"60 Davis Road, Faisalabad",+92-317-2768267,2020-05-24,Security Services,False
+V0236,Halcyon Systems Inc,6035838-3,PK91TMCB42369966429,"191 Shahrah-e-Quaid, Karachi",+92-370-1943369,2018-03-03,Office Supplies,False
+V0237,Riverstone Supplies Ltd,3928543-4,PK58TMCB64936369825,"257 Multan Rd, Multan",+92-358-2994433,2021-05-28,Hardware,False
+V0238,Meridian Systems Inc,6587611-6,PK71TMCB13829663588,"98 Empress Road, Karachi",+92-354-2461209,2018-09-22,Hardware,False
+V0239,Summit Industrial Group,6106760-9,PK48TMCB93661562400,"81 Raiwind Rd, Lahore",+92-339-5665141,2023-07-26,Transport,False
+V0240,Apex Systems Group,7437232-9,PK27TMCB97363914506,"362 Gulberg Ave, Faisalabad",+92-370-1600348,2022-08-25,Hardware,False
+V0241,Granite Contractors & Co,5329005-4,PK66TMCB23822180117,"229 Multan Rd, Multan",+92-370-7325933,2021-07-26,Software Licenses,False
+V0242,Trident Logistics Inc,7504620-5,PK58TMCB97251272534,"125 Ferozepur Road, Multan",+92-303-9729978,2016-07-28,Raw Materials,False
+V0243,Summit Enterprises Inc,6338056-9,PK56TMCB29371937335,"293 Cavalry Ground, Sialkot",+92-363-2798228,2022-08-31,Spare Parts,False
+V0244,Pinnacle Contractors Ltd,3321045-0,PK71TMCB98858135795,"217 Ferozepur Road, Islamabad",+92-306-7067756,2022-09-20,Raw Materials,False
+V0245,Blue Harbor Trading LLC,5277750-7,PK77TMCB35661016037,"205 Jail Road, Lahore",+92-387-5680646,2017-11-09,Cleaning Services,False
+V0246,Apex Engineering Group,9576775-2,PK67TMCB20430897878,"141 Empress Road, Multan",+92-342-2274750,2017-06-09,Software Licenses,False
+V0247,Summit Solutions Ltd,1426352-5,PK35TMCB22580883142,"84 Model Town Link, Multan",+92-345-5696887,2017-06-02,Consulting Services,False
+V0248,Silverline Trading & Co,6529474-3,PK43TMCB68620149885,"304 Ferozepur Road, Islamabad",+92-304-3234647,2018-01-08,Office Supplies,False
+V0249,Blue Harbor Supplies Group,8292722-0,PK43TMCB57739706163,"82 Multan Rd, Lahore",+92-306-5636199,2021-10-22,Raw Materials,False
+V0250,Trident Engineering Group,1902586-0,PK79TMCB94816382571,"130 Mall Road, Sialkot",+92-362-7874595,2023-02-19,Consulting Services,False
+V0251,Falcon Enterprises Inc,6691194-2,PK92TMCB98290433020,"295 Mall Road, Islamabad",+92-349-5922889,2019-10-29,Software Licenses,False
+V0252,Onyx Supplies Ltd,9888826-1,PK11TMCB50725713836,"42 Empress Road, Faisalabad",+92-330-5318186,2016-05-12,Security Services,False
+V0253,Blue Harbor Engineering Ltd,2178291-2,PK14TMCB95087491518,"394 Canal Bank Rd, Multan",+92-350-1816315,2019-12-06,Office Supplies,False
+V0254,Apex Contractors Group,5521716-9,PK96TMCB33295207351,"352 Raiwind Rd, Multan",+92-381-5034270,2016-02-28,Consulting Services,False
+V0255,Silverline Systems Corp,4509004-3,PK57TMCB97887435976,"91 Gulberg Ave, Multan",+92-331-1279626,2018-08-18,Raw Materials,False
+V0256,Cobalt Technologies Group,7120313-4,PK26TMCB70733147715,"149 Canal Bank Rd, Faisalabad",+92-334-4139745,2017-09-24,Spare Parts,False
+V0257,Pinnacle Engineering & Co,4251689-1,PK85TMCB61475556307,"107 Gulberg Ave, Lahore",+92-394-4083852,2021-09-02,Hardware,False
+V0258,Crescent Contractors Pvt Ltd,7106053-7,PK40TMCB82624980191,"53 Empress Road, Sialkot",+92-326-2359322,2021-05-23,Office Supplies,False
+V0259,Riverstone Solutions Corp,5397789-3,PK56TMCB56725051141,"65 Davis Road, Faisalabad",+92-371-5044516,2020-07-08,Raw Materials,False
+V0260,Apex Trading Corp,6446232-2,PK33TMCB19742449732,"16 Davis Road, Karachi",+92-332-8420689,2015-04-18,Raw Materials,False
+V0261,Blue Harbor Technologies Pvt Ltd,9212019-3,PK47TMCB40510696653,"185 Empress Road, Lahore",+92-330-6438481,2015-03-24,Consulting Services,False
+V0262,Summit Technologies Group,6395472-9,PK41TMCB55379741997,"371 Davis Road, Faisalabad",+92-393-1299994,2021-12-18,Hardware,False
+V0263,Falcon Enterprises Group,5310334-8,PK25TMCB79018801128,"174 Shahrah-e-Quaid, Multan",+92-373-1612598,2023-05-13,Office Supplies,False
+V0264,Meridian Contractors Corp,5009479-7,PK13TMCB69060668328,"38 Ferozepur Road, Lahore",+92-367-7652913,2022-03-12,Cleaning Services,False
+V0265,Cobalt Logistics Group,4132240-0,PK76TMCB47275976942,"111 Empress Road, Lahore",+92-364-5163419,2017-05-21,Security Services,False
+V0266,Silverline Systems LLC,1434482-8,PK26TMCB90436881583,"108 Cavalry Ground, Islamabad",+92-373-7663516,2019-07-10,Hardware,False
+V0267,Silverline Engineering Pvt Ltd,4370226-5,PK14TMCB41673694871,"61 Multan Rd, Faisalabad",+92-354-5349834,2022-06-01,Security Services,False
+V0268,Ironwood Solutions Corp,1068258-7,PK54TMCB85432289933,"387 Ferozepur Road, Lahore",+92-395-6025082,2016-07-12,Consulting Services,False
+V0269,Onyx Supplies & Co,3848803-2,PK24TMCB20366744798,"371 Jail Road, Faisalabad",+92-337-3342070,2015-07-13,Raw Materials,False
+V0270,Cobalt Industrial Group,1110239-0,PK55TMCB33270146033,"205 Mall Road, Faisalabad",+92-331-4598549,2023-06-08,Consulting Services,False
+V0271,Cedarpoint Technologies Pvt Ltd,3345781-3,PK20TMCB74625610296,"235 Model Town Link, Islamabad",+92-341-7415923,2015-12-09,Spare Parts,False
+V0272,Halcyon Enterprises Inc,3830280-8,PK32TMCB93012187468,"193 Cavalry Ground, Lahore",+92-381-6260284,2023-05-14,Construction,False
+V0273,Halcyon Supplies LLC,3935939-3,PK70TMCB47454551205,"181 Canal Bank Rd, Karachi",+92-358-8730696,2017-04-12,Office Supplies,False
+V0274,Cobalt Trading Ltd,6883573-1,PK40TMCB68991345344,"178 Ferozepur Road, Multan",+92-398-7736629,2018-08-15,Cleaning Services,False
+V0275,Pinnacle Industrial Group,3881448-9,PK42TMCB58345538348,"187 Canal Bank Rd, Sialkot",+92-304-4319905,2019-11-22,Consulting Services,False
+V0276,Summit Solutions Pvt Ltd,3765276-6,PK39TMCB41084505384,"155 Shahrah-e-Quaid, Faisalabad",+92-397-1151487,2018-05-30,Consulting Services,False
+V0277,Cobalt Technologies Corp,3694383-5,PK20TMCB81430536182,"364 Jail Road, Lahore",+92-374-9913375,2021-04-14,Transport,False
+V0278,Apex Trading Inc,6058082-0,PK21TMCB77636760424,"12 Raiwind Rd, Lahore",+92-378-8824255,2020-05-20,Construction,False
+V0279,Cedarpoint Solutions Inc,7791131-5,PK84TMCB88214840764,"18 Mall Road, Lahore",+92-357-2946423,2016-05-26,Cleaning Services,False
+V0280,Falcon Solutions Inc,4782001-0,PK26TMCB40512126332,"282 Shahrah-e-Quaid, Karachi",+92-326-1842246,2019-06-15,Cleaning Services,False
+V0281,Riverstone Enterprises Ltd,2798154-2,PK36TMCB97486315940,"66 Shahrah-e-Quaid, Faisalabad",+92-362-3768656,2020-06-16,Consulting Services,False
+V0282,Riverstone Trading Ltd,7556336-6,PK13TMCB10437160399,"382 Shahrah-e-Quaid, Sialkot",+92-393-7808526,2016-11-24,Office Supplies,False
+V0283,Ironwood Engineering Corp,4925227-0,PK38TMCB56954279276,"224 Model Town Link, Karachi",+92-366-3693571,2020-07-23,Security Services,False
+V0284,Onyx Trading LLC,4462150-0,PK26TMCB41690842652,"60 Canal Bank Rd, Karachi",+92-311-7876683,2022-06-03,Office Supplies,False
+V0285,Granite Contractors Group,1293331-9,PK15TMCB46294622463,"298 Mall Road, Karachi",+92-323-9874266,2017-12-25,Consulting Services,False
+V0286,Crescent Industrial Ltd,6162765-4,PK54TMCB62239446747,"62 Jail Road, Karachi",+92-383-2247224,2021-08-16,Office Supplies,False
+V0287,Meridian Solutions Pvt Ltd,8814127-8,PK42TMCB61097103917,"261 Mall Road, Karachi",+92-316-1622243,2019-08-27,Spare Parts,False
+V0288,Halcyon Technologies Ltd,7513706-0,PK15TMCB87629302035,"283 Empress Road, Lahore",+92-303-1213808,2022-12-29,Hardware,False
+V0289,Vertex Systems Group,3112331-4,PK58TMCB48361978285,"114 Davis Road, Sialkot",+92-340-5505947,2023-01-02,Security Services,False
+V0290,Silverline Industrial & Co,8476334-9,PK14TMCB52988389261,"40 Empress Road, Lahore",+92-369-7166930,2021-11-13,Consulting Services,False
+V0291,Onyx Engineering Ltd,4299229-3,PK56TMCB51600513712,"171 Canal Bank Rd, Multan",+92-337-3257675,2022-10-13,Raw Materials,False
+V0292,Apex Industrial Group,8848937-2,PK63TMCB22040778303,"181 Shahrah-e-Quaid, Sialkot",+92-380-3137820,2018-12-06,Software Licenses,False
+V0293,Apex Technologies Group,2595450-9,PK33TMCB77326386316,"18 Ferozepur Road, Lahore",+92-385-4089206,2021-10-21,Cleaning Services,False
+V0294,Northgate Logistics Ltd,3755191-5,PK27TMCB33185568055,"396 Jail Road, Karachi",+92-351-4518532,2019-12-31,Construction,False
+V0295,Riverstone Enterprises Inc,9032872-3,PK81TMCB32254037476,"211 Raiwind Rd, Multan",+92-328-3968068,2019-10-22,Security Services,False
+V0296,Halcyon Engineering LLC,2772376-5,PK91TMCB19655835177,"195 Jail Road, Karachi",+92-395-2232881,2015-08-10,Cleaning Services,False
+V0297,Cedarpoint Enterprises Ltd,1884569-1,PK76TMCB18724108760,"306 Ferozepur Road, Sialkot",+92-397-1954343,2015-08-14,Hardware,False
+V0298,Riverstone Systems & Co,3358920-7,PK15TMCB74651550684,"331 Empress Road, Faisalabad",+92-343-9295381,2021-04-10,Software Licenses,False
+V0299,Halcyon Trading & Co,2714888-6,PK46TMCB78050872876,"175 Jail Road, Sialkot",+92-341-1057588,2016-10-27,Construction,False
+V9000,Zenith Trading Ltd,1913646-8,PK13TMCB62704338531,"16 Unknown Rd, Lahore",+92-340-5050305,2024-11-18,Office Supplies,True
+V9001,Vanguard Supplies Ltd,1597213-9,PK24TMCB94972928235,"149 Jail Road, Faisalabad",+92-392-9502366,2024-01-27,Cleaning Services,True
+V8002,Trident Holdings & Co,3630856-5,PK82TMCB72752376574,"149 Gulberg Ave, Multan",+92-387-6998908,2025-01-24,Construction,True
+V9002,Orbit Services Ltd,6371309-3,PK82TMCB72752376574,"300 Unknown Rd, Lahore",+92-339-4022256,2025-03-05,Consulting Services,True
+V9003,Nexa Trading Ltd,3904504-7,PK52TMCB18995667019,"81 Unknown Rd, Lahore",+92-309-4395013,2025-12-16,Office Supplies,True
+V9004,Solara Supplies Ltd,3536728-3,PK92TMCB56992730248,"353 Cavalry Ground, Faisalabad",+92-361-8942095,2025-08-28,Cleaning Services,True
+V9005,Zenith Services Ltd,4440477-1,PK32TMCB27854466695,"329 Shahrah-e-Quaid, Multan",+92-387-9927712,2023-11-10,Spare Parts,True
+V8006,Halcyon Holdings Ltd,8256066-7,PK59TMCB57912635280,"217 Ferozepur Road, Faisalabad",+92-363-4706968,2023-05-17,Cleaning Services,True
+V9006,Vanguard Trading Ltd,6459441-7,PK59TMCB57912635280,"125 Unknown Rd, Lahore",+92-361-3435070,2023-12-02,Spare Parts,True
+V9007,Orbit Supplies Ltd,8875339-2,PK54TMCB70781002360,"178 Mall Road, Sialkot",+92-389-3558535,2025-11-14,Cleaning Services,True
+V9008,Nexa Services Ltd,2901052-3,PK17TMCB54483379912,"109 Canal Bank Rd, Karachi",+92-338-6022088,2025-01-11,Cleaning Services,True
