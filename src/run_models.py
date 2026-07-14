@@ -20,6 +20,7 @@ from . import config as C
 from . import features as F
 from . import models as M
 from . import graph as GR
+from . import explain as EX
 from . import evaluate as ev
 
 
@@ -205,13 +206,31 @@ def main():
     for k, v in importance.head(10).items():
         print(f"  {k:<28}{v:>10.1f}")
 
+    # ── 7. why. Day 7: SHAP, from the fold model that never saw the row, then
+    #        translated out of feature names and into English.
+    print("\n" + "═" * 72)
+    print("  Explaining every alert (SHAP, per fold)")
+    print("═" * 72)
+    expl = EX.build_explanations(feats, truth, y, groups)
+    n_with = expl["tender_id"].nunique()
+    print(f"  {len(expl):,} reasons across {n_with:,} tenders "
+          f"({len(expl) / max(n_with, 1):.1f} per tender)")
+    print("\n  A worked example — the highest-risk tender in the book:\n")
+    top1 = scored.nlargest(1, "risk_score")["tender_id"].iloc[0]
+    for r in expl[expl["tender_id"] == top1].itertuples():
+        arrow = "▲" if r.direction == "up" else "▼"
+        print(f"  {arrow} {r.contribution:+.3f}  {r.label}")
+        print(f"           {r.text}")
+
     rings.to_csv(C.FILES["rings"], index=False)
+    expl.to_csv(C.FILES["explanations"], index=False)
     scored.drop(columns=["_ri"]).to_csv(C.FILES["risk_scores"], index=False)
     feats.to_csv(C.FILES["features"], index=False)
     print("\n" + "═" * 72)
     print(f"  written → {C.FILES['risk_scores']}")
     print(f"  written → {C.FILES['features']}")
-    print(f"  written → {C.FILES['rings']}\n")
+    print(f"  written → {C.FILES['rings']}")
+    print(f"  written → {C.FILES['explanations']}\n")
 
 
 if __name__ == "__main__":

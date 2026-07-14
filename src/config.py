@@ -133,6 +133,7 @@ BLEND_WEIGHTS = {
 FILES["features"]     = f"{OUT_DIR}/features.csv"
 FILES["risk_scores"]  = f"{OUT_DIR}/risk_scores.csv"
 FILES["rings"]        = f"{OUT_DIR}/rings.csv"
+FILES["explanations"] = f"{OUT_DIR}/explanations.csv"
 
 
 # ─────────────────────────────────────────────────────────── Day 5: the graph

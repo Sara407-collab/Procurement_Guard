@@ -77,6 +77,50 @@ st.markdown("""
     font-size: .87rem; line-height: 1.55; color: #2E3238; margin: .3rem 0;
   }
   .why.quiet { border-left-color: var(--rule); color: var(--muted); }
+
+  /* The evidence. Each reason gets a bar whose length is how hard it pushed
+     this tender up the queue — SHAP, but never shown as a number, because
+     "+0.31" tells an auditor nothing. The bar is the number. */
+  .ev { margin: 0 0 1.05rem; }
+  .ev-top {
+    display: flex; align-items: baseline; gap: .6rem; margin-bottom: .28rem;
+  }
+  .ev-rank {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: .68rem; color: var(--muted); min-width: 1.1rem;
+  }
+  .ev-label {
+    font-weight: 600; font-size: .9rem; letter-spacing: -.005em;
+    color: var(--ink);
+  }
+  .ev-track {
+    height: 5px; background: #EFEDE8; border-radius: 3px;
+    margin: .1rem 0 .4rem; overflow: hidden;
+  }
+  .ev-fill {
+    height: 100%; background: var(--flag); border-radius: 3px;
+    animation: grow .55s cubic-bezier(.2,.8,.3,1) both;
+  }
+  .ev-fill.g { background: var(--ring); }        /* the graph found this one */
+  .ev-fill.r { background: #8A6D3B; }            /* a human-written rule did  */
+  @keyframes grow { from { width: 0 } }
+  @media (prefers-reduced-motion: reduce) { .ev-fill { animation: none } }
+  .ev-text {
+    font-size: .86rem; line-height: 1.6; color: #3A3F45;
+    padding-left: 1.7rem;
+  }
+  .ev-src {
+    font-size: .62rem; text-transform: uppercase; letter-spacing: .09em;
+    color: var(--muted); margin-left: .35rem;
+  }
+  .ev-legend {
+    font-size: .68rem; color: var(--muted); letter-spacing: .04em;
+    margin: -.3rem 0 1rem;
+  }
+  .chip {
+    display: inline-block; width: 8px; height: 8px; border-radius: 2px;
+    margin-right: .3rem; vertical-align: middle;
+  }
   .rot {
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     font-size: .95rem; letter-spacing: .06em; line-height: 2.1;
@@ -92,11 +136,13 @@ st.markdown("""
 @st.cache_data
 def load():
     missing = [f for f in ("risk_scores.csv", "rule_flags.csv", "tenders.csv",
-                           "bids.csv", "rings.csv") if not (DATA / f).exists()]
+                           "bids.csv", "rings.csv", "explanations.csv")
+               if not (DATA / f).exists()]
     if missing:
         return None, missing
     d = {n: pd.read_csv(DATA / f"{n}.csv") for n in
-         ("risk_scores", "rule_flags", "tenders", "bids", "rings")}
+         ("risk_scores", "rule_flags", "tenders", "bids", "rings",
+          "explanations")}
     alerts = (d["risk_scores"]
               .merge(d["rule_flags"][["tender_id", "rule_reasons", "n_rules_triggered"]],
                      on="tender_id")
@@ -105,7 +151,7 @@ def load():
                                    "approval_limit"]], on="tender_id"))
     alerts["rule_reasons"] = alerts["rule_reasons"].fillna("")
     return {"alerts": alerts, "bids": d["bids"], "tenders": d["tenders"],
-            "rings": d["rings"]}, []
+            "rings": d["rings"], "why": d["explanations"]}, []
 
 
 data, missing = load()
@@ -127,8 +173,9 @@ python -m src.run_rules
 python -m src.run_models</pre></div>""", unsafe_allow_html=True)
     st.stop()
 
-alerts, bids, tenders, rings = (data["alerts"], data["bids"],
-                                data["tenders"], data["rings"])
+alerts, bids, tenders, rings, why = (data["alerts"], data["bids"],
+                                     data["tenders"], data["rings"],
+                                     data["why"])
 
 # ── controls ─────────────────────────────────────────────────────────────────
 with st.sidebar:
@@ -220,18 +267,50 @@ with tab_alerts:
     left, right = st.columns([3, 2])
 
     with left:
-        if row["rule_reasons"]:
-            for reason in row["rule_reasons"].split(" | "):
-                st.markdown(f'<div class="why">{reason}</div>',
-                            unsafe_allow_html=True)
+        ev = why[why["tender_id"] == pick].sort_values(
+            "contribution", ascending=False)
+
+        if len(ev):
+            st.markdown(
+                '<div class="ev-legend">'
+                '<span class="chip" style="background:#9E2A20"></span>the transaction'
+                '&nbsp;&nbsp;&nbsp;'
+                '<span class="chip" style="background:#1F4E5F"></span>the network'
+                '&nbsp;&nbsp;&nbsp;'
+                '<span class="chip" style="background:#8A6D3B"></span>a written rule'
+                '</div>', unsafe_allow_html=True)
+
+            top = ev["contribution"].max()
+            for i, r in enumerate(ev.itertuples(), 1):
+                if r.feature.startswith("g_"):
+                    cls, src = "g", "network"
+                elif r.feature.startswith("rule_") or r.feature == "n_rules_triggered":
+                    cls, src = "r", "rule"
+                else:
+                    cls, src = "", "transaction"
+                w = max(4, 100 * r.contribution / top)
+                st.markdown(f"""
+<div class="ev">
+  <div class="ev-top">
+    <span class="ev-rank">{i}</span>
+    <span class="ev-label">{r.label}<span class="ev-src">{src}</span></span>
+  </div>
+  <div class="ev-track"><div class="ev-fill {cls}" style="width:{w:.0f}%"></div></div>
+  <div class="ev-text">{r.text}</div>
+</div>""", unsafe_allow_html=True)
+
+            st.markdown(
+                '<div class="note">Bar length is how hard each fact pushed this '
+                'tender up the queue, measured with SHAP against the model that '
+                'never saw it. It is deliberately not shown as a number: '
+                '"+0.31" tells an auditor nothing they can act on.</div>',
+                unsafe_allow_html=True)
         else:
             st.markdown(
-                '<div class="why quiet">No written rule fired. This one was '
-                'raised by the models — either the anomaly detector found the '
-                'transaction unusual against the other 3,000, or the network '
-                'found the vendor keeping company it should not keep. '
-                'Day 7 will show exactly which features drove it.</div>',
-                unsafe_allow_html=True)
+                '<div class="why quiet">Nothing here rose above the noise. This '
+                'tender sits in the queue on the weight of many small signals, '
+                'none of them decisive on its own. Treat it as the weakest kind '
+                'of lead.</div>', unsafe_allow_html=True)
 
         tb = bids[bids["tender_id"] == pick].sort_values("bid_amount")
         if len(tb):
