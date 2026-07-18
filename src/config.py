@@ -150,3 +150,10 @@ IDENTITY_MAX_HOPS = 3
 COBID_AFFINITY_QUANTILE = 0.97
 COBID_MIN_CLUSTER = 3
 COBID_MIN_BIDS = 8   # a vendor with 3 bids has no co-bidding pattern, only noise
+
+
+# ─────────────────────────────────────────────────────────── Day 8: narration
+# The model used for alert narration, IF a key is present. Small and fast — this
+# is one short paragraph per alert, not a reasoning task. Falls back to a
+# deterministic template whenever the key or network is absent.
+NARRATION_MODEL = "claude-haiku-4-5-20251001"

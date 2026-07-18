@@ -20,10 +20,16 @@ the pipeline runs, the dashboard serves. A dashboard that retrains on page load
 is a dashboard that times out on page load.
 """
 
+import os
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+
+try:
+    from src import narrate as NARR
+except Exception:
+    import narrate as NARR
 
 DATA = Path(__file__).parent / "data"
 
@@ -121,6 +127,18 @@ st.markdown("""
     display: inline-block; width: 8px; height: 8px; border-radius: 2px;
     margin-right: .3rem; vertical-align: middle;
   }
+
+  /* The narration: the whole case in one short paragraph, ready to paste into
+     an email. Set slightly apart, like a summary at the top of a memo. */
+  .brief {
+    background: #F7F5F1; border: 1px solid var(--rule); border-radius: 6px;
+    padding: 1rem 1.15rem; margin: .2rem 0 1.3rem;
+    font-size: .92rem; line-height: 1.62; color: #2A2E33;
+  }
+  .brief-tag {
+    display: inline-block; font-size: .6rem; text-transform: uppercase;
+    letter-spacing: .1em; color: var(--muted); margin-bottom: .5rem;
+  }
   .rot {
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     font-size: .95rem; letter-spacing: .06em; line-height: 2.1;
@@ -189,6 +207,17 @@ with st.sidebar:
         help="They disagree, and the disagreement is the point. Likelihood "
              "finds MORE cases. Money at risk finds BIGGER ones.")
     sort_col = "expected_loss" if order == "Money at risk" else "risk_score"
+
+    st.markdown("---")
+    _has_key = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    USE_LLM = st.toggle(
+        "Write briefs with Claude", value=_has_key, disabled=not _has_key,
+        help="On: each brief is written by Claude from the findings. "
+             "Off (or no API key set): a deterministic template writes it. "
+             "Either way, only the findings on screen are ever used — the brief "
+             "cannot introduce a fact that is not in the evidence below.")
+    if not _has_key:
+        st.caption("Set ANTHROPIC_API_KEY to enable Claude-written briefs.")
 
     st.markdown("---")
     st.markdown("#### Narrow it down")
@@ -269,6 +298,15 @@ with tab_alerts:
     with left:
         ev = why[why["tender_id"] == pick].sort_values(
             "contribution", ascending=False)
+
+        # ── the one-paragraph brief (Day 8) ─────────────────────────────────
+        reasons = ev.to_dict("records")
+        brief, engine = NARR.narrate(pick, row["amount"], reasons,
+                                     prefer_llm=USE_LLM)
+        tag = ("written by Claude" if engine == "claude"
+               else "auto-generated summary")
+        st.markdown(f'<div class="brief"><span class="brief-tag">Auditor brief · '
+                    f'{tag}</span>{brief}</div>', unsafe_allow_html=True)
 
         if len(ev):
             st.markdown(
@@ -393,7 +431,16 @@ with tab_rings:
         st.markdown(f"**Members** — `{'`  `'.join(members)}`")
 
         # The rotation. This is the evidence: not a score, a sequence.
-        won = tenders[tenders["vendor_id"].isin(members)].copy()
+        #
+        # A ring's tenders are the ones it RIGGED — where two or more members
+        # showed up together and one of them won. Not every tender a member ever
+        # touched: they also bid honestly elsewhere, and mixing those in buries
+        # the rota under noise.
+        ring_bids = bids[bids["vendor_id"].isin(members)]
+        rigged = (ring_bids.groupby("tender_id")["vendor_id"].nunique()
+                  .loc[lambda x: x >= 2].index)
+        won = tenders[tenders["tender_id"].isin(rigged)
+                      & tenders["vendor_id"].isin(members)].copy()
         won["award_date"] = pd.to_datetime(won["award_date"])
         won = won.sort_values("award_date")
 
